@@ -38,7 +38,7 @@ ffmpeg-python>=0.2.0
 jinja2
 apscheduler
 pyshorteners
-pyromod
+pyromod==1.5
 colorama
 
 #----Extra---#
