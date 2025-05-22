@@ -30,6 +30,9 @@ API_HASH = environ.get('API_HASH', '92bcb6aa798a6f1feadbc917fccb54d3')
 OWNER_ID = environ.get('OWNER_ID', '821215952')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
+# for eval function, work only in a specific group
+EVAL_ID = environ.get("EVAL_ID", "-1002434717011")
+
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
